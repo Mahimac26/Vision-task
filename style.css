@@ -1,0 +1,125 @@
+
+.navbar {
+  background-color:black;
+  padding: 1em;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar img{
+  height: 50px;
+  width: 150px;
+}
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar li {
+  margin-right: 20px;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: #ccc;
+}
+
+#page-loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index:10000;
+  background-color: #fff;
+  display:none;
+  text-align:centre;
+}
+
+.loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+} 
+.hero {
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  padding: 2em;
+  text-align: center;
+  color: #fff;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.register-btn {
+  background-color: #2980b9;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.register-btn:hover {
+  background-color: #3498db;
+}
+
+.features {
+  padding: 2em;
+  text-align: center;
+}
+.reviews{
+  text-align: center;
+}
+
+.features h2 {
+  font-size: 24px;
+}
+.features ul li{
+  list-style-type: none;
+}
+.about{
+  text-align: center;
+}
+.footer{
+  background-color:black;
+  color: #ccc;
+}
+.social-media {
+padding-top: 3%; 
+padding-left: 40%;
+padding-right: 40%;
+display: flex;
+justify-content:space-evenly;
+}
+.container{
+  text-align: center;
+}

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vision task- Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <img src = "956ab00a-500d-4ddc-898d-5e44004c46d5.jpg">
+  <ul>
+    <li><a href="#" class="home-btn" onclick="javascript:document.getElementById('page-loader').style.display='block';">Home</a></li>
+    <li><a href="#" class="about-us-btn" onclick="javascript:document.getElementById('page-loader').style.display='block';">About Us</a></li>
+    <li><a href="#" class="contact-us-btn"onclick="javascript:document.getElementById('page-loader').style.display='block';">Contact Us</a></li>
+    <li>
+      <a href="#" class="branches-btn">Branches</a>
+      <select>
+        <option>EE/ECE</option>
+        <option>CSE</option>
+        <option>MECHANICAL</option>
+        <option>CIVIL</option>
+      </select>
+    </li>
+  </ul>
+    </nav>
+  </header>
+  <main>
+  <!---LOADING PAGE -->
+  <section>
+    <div id="page-loader">
+  <div class="loader"></div>
+  <p>Loading...</p>
+  <h3>PAGE IS UNDER CONSTRUCTION !!!</h3>
+    </div>
+  </section>
+      <!--HOME PAGE-->
+    <section class="hero">
+  <h1>Arduino Workshop</h1>
+  <p>Learn the basics of Arduino and take your projects to the next level!</p>
+  <button class="register-btn">Registration-closed</button>
+</section>
+
+<section class="features">
+  <h2>What You'll Learn</h2>
+  <ul>
+    <li>Basics of Arduino and its applications</li>
+    <li>How to program Arduino using C/C++</li>
+    <li>How to interface sensors and actuators with Arduino</li>
+    <li>How to build and deploy your own projects</li>
+  </ul>
+</section>
+
+<section class="reviews">
+  <h2>What Our Students Say</h2>
+    <p>Best workshop I've ever attended! The instructors were knowledgeable and helpful.</p>
+    <i> : mahima chourasiya</i>
+    <p>I learned so much from this workshop. It was worth every penny!</p>
+    <i>: Jane doe</i>
+</section>
+<section class="about">
+<h2>More about vision-manit !!!</h2>
+<P>Technical Workshops</P>
+<P>Hackathons</P>
+<P>Seminars</P>
+<P>Events</P>
+</section>
+      </main>
+  <!--Footer section -->
+  <footer class ="footer">
+    <div class="container">
+      <div class="social-media">
+        <a href="https://www.instagram.com/visionmanit/" target="_blank"><img src="camera-photography-icon-symbol-image-illustration-of-multimedia-photographic-lens-graphic-design-image-vector.jpg" height="30px" width="30px">
+      
+        </a>
+        <a href="https://www.linkedin.com/company/vision-manit/" target="_blank"><img src="linkedin.svg" height="30px" width="30px">
+        </a>
+        <a href="https://www.meta.com/visionmanit/" target="_blank"><img src="download.png" height="30px" width="30px">
+        </a>
+        <a href="#" target="_blank"><img src="download (1).png" height="30px" width="30px">
+        </a>
+      </div>
+      <img src="956ab00a-500d-4ddc-898d-5e44004c46d5.jpg" height="75px" >
+      <div class="address">
+        <p>VISION MANIT, Maulana Azad National Institute of Technology, Bhopal, Madhya Pradesh, India</p>
+      </div>
+      <div class="contact">
+        <p>Contact: +91 1234567890 </p>
+      </div>
+      <div class="register-button">
+        <button onclick="openRegistrationForm()">Register Now</button>
+      </div>
+    </div>
+  </footer>
+  
+  <!-- Registration Form -->
+  <div id="registration-form" style="display: none; text-align:center;">
+    <h2>Registration Form</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name"><br><br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email"><br><br>
+      <label for="phone">Phone:</label>
+      <input type="tel" id="phone" name="phone"><br><br>
+      <label for="course">Course:</label>
+      <select id="course" name="course">
+        <option value="B.Tech">B.Tech</option>
+        <option value="M.Tech">M.Tech</option>
+        <option value="Ph.D">Ph.D</option>
+      </select><br><br>
+      <input type="submit" value="Register">
+    </form>
+  </div>
+  
+  <script>
+    function openRegistrationForm() {
+      document.getElementById("registration-form").style.display = "block";
+    }
+  </script>
+</body>
+</html>
+  
